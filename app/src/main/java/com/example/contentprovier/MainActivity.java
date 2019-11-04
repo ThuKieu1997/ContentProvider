@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                         null, // select ....
                         null, // where
                         null, // where params
-                        "title"); // order by
+                        "id"); // order by
 
                 if (cursor != null && cursor.moveToFirst()) {
                     do {
