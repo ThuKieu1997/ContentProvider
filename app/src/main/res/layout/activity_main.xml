@@ -31,14 +31,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+
         >
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnSelect"
-            android:text="Select">
+            android:text="Select"/>
 
-        </Button>
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,10 +61,12 @@
     </LinearLayout>
 
     <GridView
-        android:id="@+id/grid"
-        android:listSelector="@color/colorPrimary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numColumns="3"/>
+        android:id="@+id/grid"
+        android:numColumns="3"
+        >
+
+    </GridView>
 
 </LinearLayout>

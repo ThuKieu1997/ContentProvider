@@ -3,11 +3,9 @@
     package="com.example.contentprovier">
 
     <permission android:name="com.example.contentprovier.WRITE_DATABASE"
-        android:label="Write Database"
         android:protectionLevel="normal">
     </permission>
     <permission android:name="com.example.contentprovier.READ_DATABASE"
-        android:label="Read Database"
         android:protectionLevel="normal">
     </permission>
 
@@ -29,9 +27,9 @@
         <provider
             android:name=".MyContentProvider"
             android:authorities="com.example.contentprovier"
-            android:enabled="true"
             android:exported="true"
             android:readPermission="com.example.contentprovier.READ_DATABASE"
             android:writePermission="com.example.contentprovier.WRITE_DATABASE" />
+
     </application>
 </manifest>
